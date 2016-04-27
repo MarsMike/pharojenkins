@@ -1,5 +1,5 @@
 FROM jenkins
-MAINTAINER Mike Müller MarsMike@web.de
+MAINTAINER Mike Müller mike@objektarium.de
 
 USER root
 RUN apt-get update
