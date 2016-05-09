@@ -1,5 +1,6 @@
 FROM jenkins
 MAINTAINER Mike Müller <mike@objektarium.de>
+ENV REFRESHED_AT 2016-05-09
 
 USER root
 RUN apt-get update
