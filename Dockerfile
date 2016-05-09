@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins:2.0
 MAINTAINER Mike Müller <mike@objektarium.de>
 ENV REFRESHED_AT 2016-05-09
 
