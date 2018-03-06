@@ -25,3 +25,5 @@ RUN usermod -a -G staff,docker jenkins
 
 # switch back to user jenkins
 USER jenkins
+
+ssh-keyscan github.com >> ~/.ssh/known_hosts
